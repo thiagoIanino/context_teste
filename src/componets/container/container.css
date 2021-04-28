@@ -1,0 +1,102 @@
+
+.pageLogin{
+   
+    height: 100vh;
+    
+    
+    }
+    
+    .pageLogin .content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    align-items: center;
+    
+    }
+    
+    .pageLogin .main{
+        border-radius: 30px;
+        width: 400px;
+        height: 500px;
+    background-color: rgba(255, 255, 255, 0.671);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas: "title" "txt1" "txt2" "btn";
+    
+    }
+    .pageLogin .main label{
+    font-size: 20px;
+    display: flex;
+    justify-self: left;
+    margin-left: 50px;
+    
+    }
+    .pageLogin .main input{
+        
+        border-radius: 9px;
+        height: 34px;
+        width: 70%;
+        font-size: 18px;
+    }
+    
+    .pageLogin .main button{
+        height: 40px;
+        width: 110px;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: 800ms;
+    } 
+    
+    .pageLogin .main .loginH1 {
+        display: grid;
+        grid-area: title;
+      
+         justify-items: center;
+         align-items: center;
+         margin-top: 20px;
+    }
+    .pageLogin .main .Logintxt {
+    display: grid;
+    grid-area: txt1;
+    justify-items: center;
+    
+    }
+    
+    .pageLogin .main .Senhatxt{
+        display: grid;
+        grid-area: txt2;
+        justify-items: center;
+    }
+    
+    
+    
+    .pageLogin .main .btnlogin {
+        
+        grid-area: btn;
+        display :flex;
+        
+        justify-content: space-evenly;
+       align-items: center;
+        
+        }
+    
+        .pageLogin .main .btnlogin #login{
+            background-color: rgb(45, 196, 78);
+            
+            
+        }
+        .pageLogin .main .btnlogin #login:hover{
+            background-color: rgb(35, 153, 60);
+            pointer-events: painted;
+        cursor: pointer;
+        }
+        .pageLogin .main .btnlogin #cadastro{
+            background-color: rgba(255, 190, 10, 0.836);
+        }
+        .pageLogin .main .btnlogin #cadastro:hover{
+            background-color: rgb(201, 149, 5);
+        }
